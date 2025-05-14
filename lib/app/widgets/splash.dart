@@ -73,7 +73,7 @@ class _SplashScreenState extends State<SplashScreen> with SingleTickerProviderSt
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        backgroundColor: Colors.yellow,
+        backgroundColor: Color(0xff4B2C91),
         body: Center(
           child: AnimatedBuilder(
             animation: _animationController,
